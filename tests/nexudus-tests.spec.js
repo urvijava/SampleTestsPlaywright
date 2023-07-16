@@ -24,8 +24,6 @@ test.describe('Login Page', () => {
         await expect(page.getByTitle('Dashboard')).toBeVisible();
 
     });
-
-
 });
 
 test.describe('Products Page', () => {
